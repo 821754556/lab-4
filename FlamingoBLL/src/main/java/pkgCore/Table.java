@@ -1,30 +1,27 @@
 package pkgCore;
 
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.UUID;
 
 public class Table {
 
 	private UUID TableID;
-	private ArrayList<Player> PlayersInTable = new ArrayList<Player>();
-	
+	private HashMap<UUID, Player> hmTablePlayer = new HashMap<UUID, Player>();
+
 	public Table() {
 		super();
 		this.TableID = UUID.randomUUID();
 	}
-	
-	public void AddPlayerToTable(Player p)
-	{
-		//TODO: Implement this method
+
+	public void AddPlayerToTable(Player p) {
+		hmTablePlayer.put(p.getPlayerID(), p);
 	}
-	public void RemovePlayerFromTable(Player p)
-	{
-		//TODO: Implement this method		
+
+	public void RemovePlayerFromTable(Player p) {
+		hmTablePlayer.remove(p.getPlayerID());
 	}
-	
-	public Player GetPlayerFromTable(Player p)
-	{
-		//TODO: Implement this method	
-		return null;
+
+	public Player GetPlayerFromTable(Player p) {
+		return (Player) hmTablePlayer.get(p.getPlayerID());
 	}
 }
