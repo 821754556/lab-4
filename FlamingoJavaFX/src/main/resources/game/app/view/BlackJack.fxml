@@ -16,9 +16,9 @@
           <ColumnConstraints hgrow="SOMETIMES" maxWidth="463.66668701171875" minWidth="10.0" prefWidth="442.3333435058594" />
         </columnConstraints>
         <rowConstraints>
-          <RowConstraints maxHeight="49.666656494140625" minHeight="10.0" prefHeight="19.000030517578125" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="49.666656494140625" minHeight="0.0" prefHeight="39.999969482421875" vgrow="SOMETIMES" />
-            <RowConstraints maxHeight="132.0" minHeight="10.0" prefHeight="132.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="93.6666259765625" minHeight="0.0" prefHeight="57.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="132.0" minHeight="10.0" prefHeight="65.3333740234375" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
             <HBox prefHeight="50.0" prefWidth="266.0" spacing="30.0" GridPane.rowIndex="1">
@@ -60,9 +60,9 @@
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
         <rowConstraints>
-          <RowConstraints maxHeight="32.66667175292969" minHeight="10.0" prefHeight="32.66667175292969" vgrow="SOMETIMES" />
-            <RowConstraints maxHeight="89.66667175292969" minHeight="6.3333282470703125" prefHeight="16.333328247070312" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="100.0" minHeight="3.0" prefHeight="88.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="47.33332824707031" minHeight="10.0" prefHeight="35.33332824707031" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="89.66667175292969" minHeight="0.6666717529296875" prefHeight="49.66667175292969" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="100.0" minHeight="3.0" prefHeight="51.33332824707031" vgrow="SOMETIMES" />
           <RowConstraints maxHeight="88.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
@@ -77,12 +77,12 @@
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
         </columnConstraints>
         <rowConstraints>
-          <RowConstraints maxHeight="87.33334350585938" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
-          <RowConstraints maxHeight="184.0" minHeight="10.0" prefHeight="184.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="181.66668701171875" minHeight="0.0" prefHeight="181.66668701171875" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="184.0" minHeight="10.0" prefHeight="60.33331298828125" vgrow="SOMETIMES" />
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label text="Game Player" GridPane.halignment="CENTER" />
+            <Label text="Game        Player" GridPane.halignment="CENTER" />
          </children>
       </GridPane>
    </center>

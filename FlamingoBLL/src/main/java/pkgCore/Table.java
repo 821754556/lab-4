@@ -6,7 +6,7 @@ import java.util.UUID;
 public class Table {
 
 	private UUID TableID;
-	private HashMap<UUID, Player> hmTablePlayer = new HashMap<UUID, Player>();
+	private HashMap<UUID, Player> hashmTablePlayer = new HashMap<UUID, Player>();
 
 	public Table() {
 		super();
@@ -14,14 +14,14 @@ public class Table {
 	}
 
 	public void AddPlayerToTable(Player p) {
-		hmTablePlayer.put(p.getPlayerID(), p);
+		hashmTablePlayer.put(p.getPlayerID(), p);
 	}
 
 	public void RemovePlayerFromTable(Player p) {
-		hmTablePlayer.remove(p.getPlayerID());
+		hashmTablePlayer.remove(p.getPlayerID());
 	}
 
 	public Player GetPlayerFromTable(Player p) {
-		return (Player) hmTablePlayer.get(p.getPlayerID());
+		return (Player) hashmTablePlayer.get(p.getPlayerID());
 	}
 }
