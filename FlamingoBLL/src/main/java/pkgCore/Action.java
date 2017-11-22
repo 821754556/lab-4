@@ -18,6 +18,7 @@ public class Action implements Serializable {
 	private Player ActPlayer;
 	
 	public Action()
+	//32
 	{
 		
 	}
